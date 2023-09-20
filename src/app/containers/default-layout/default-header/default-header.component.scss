@@ -1,0 +1,27 @@
+// Estilos para el checkbox
+.c-form-check.switch {
+  background-color: var(--cui-primary-color);
+  border: 1px solid var(--cui-white);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+// Estilos para la etiqueta del checkbox
+.c-form-check.switch .c-form-check-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--cui-white);
+}
+
+// Estilos para el checkbox cuando está marcado
+.c-form-check.switch input:checked {
+  background-color: var(--cui-white);
+  border-color: var(--cui-primary-color);
+}
+
+// Estilos para el checkbox cuando se pasa el mouse sobre él
+.c-form-check.switch input:hover {
+  background-color: var(--cui-primary-color);
+  border-color: var(--cui-white);
+}
